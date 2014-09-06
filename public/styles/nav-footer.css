@@ -1,15 +1,21 @@
+.nav-footer-container {
+  background-color: #f5f5f5;
+  width: 100%;
+}
+
 .nav-footer {
-  background-color: #fafafa;
-  padding: 40px;
-  text-align: left;
-  display: inline-block;
+  max-width: 1100px;
+    text-align: left;
+    display: inline-block;
+      padding: 50px 0px;
 }
 
 .nav-footer-left {
   display: inline-block;
   float: left;
-  width: 70%;
+  width: 60%;
   font-size: 13px;
+  margin: 0 0 0 50px;
 }
 
 .nav-footer-left h5 {
@@ -22,6 +28,8 @@
   color: #999;
   display: inline-block;
   float: right;
+  margin: -5px 50px 0 0;
+  
 }
 
 .nav-menu-footer {

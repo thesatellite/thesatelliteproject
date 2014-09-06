@@ -1,4 +1,4 @@
-@media (max-width: 860px) { /* For Phones */
+@media (max-width: 768px) { /* For Phones */
 
   /* TOP NAV BAR */
 
@@ -56,25 +56,26 @@
   }
 
   /* MAIN IMAGE */
-  .main-image img {
+  .main-image {
     height: 200px;
     margin-top: 50px;
   }
 
   .main-image h1 {
     letter-spacing: 3px;
-    position: absolute;
-    top: 9em;
+    position: relative;
+    top: 3.3em;
     width: 100%;
     color: #fff;
-    font-size: 33px;
+    font-size: 23px;
   }
 
   /* MAIN IMAGE CAPTION */
   .main-image-caption h2 {
     color: #333;
-    margin: 50px 5% 30px 5%;
+    margin: 50px 10% 30px 10%;
     font-size: 13px;
+
   }
 
   .main-image-caption h3 {
@@ -119,7 +120,7 @@
   .content-container {
     padding: 0;
     margin: 4em auto 4em auto;
-    width: 95%;
+    width: 90%;
   }
 
   .content-container h1 {
@@ -159,7 +160,7 @@
 
   /* FOOTER */
   .nav-footer {
-    padding: 15px 5% 30px 5%;
+    padding: 15px 10% 60px 10%;
     text-align: center;
   }
 
@@ -168,12 +169,14 @@
     float: none;
     width: 100%;
     font-size: 11px;
+    margin: 0 0 0 0;
   }
 
   .nav-footer-right {
     color: #999;
     display: inline-block;
     float: none;
+    margin: 0 0 0 0;
   }
 
   /* SECONDARY PAGES */
