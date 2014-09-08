@@ -2,6 +2,15 @@
 
   /* TOP NAV BAR */
 
+
+.nav-bar {
+  height: 52px;
+}
+
+.nav-container {
+  height: 52px;
+}
+
   .nav-menu {
     display: none;
     margin: 0 auto;
@@ -30,17 +39,12 @@
 
   .main-logo {
     width: 250px;
-    margin-left: 15px;
-  }
-
-  .main-logo h1 {
-    font-size: 20px;
-    margin: 5px 5px 0 0;
+    margin: 17px 0 0 3%;
   }
 
   .hamburger {
     display: inline-block;
-    margin-top: 12px;
+    margin-top: 10px;
   }
 
   .nav-menu-footer ul {
@@ -141,7 +145,7 @@
   }
 
   .story-text {
-    margin: 8em 10% 2em 10%;
+    margin: 6em 10% 2em 10%;
     width: 80%;
     text-align: center;
     font-size: 10px;
@@ -182,20 +186,18 @@
   /* SECONDARY PAGES */
   .secondary-main-image {
     display: inline-block;
+      margin-top: 52px;
+      height: 200px;
   }
 
-  .secondary-main-image img {
-    height: 200px;
-    margin-top: 50px;
-  }
 
   .secondary-main-image h1 {
     letter-spacing: 1px;
     position: absolute;
-    top: 5em;
+    top: 3.5em;
     width: 100%;
     color: #fff;
-    font-size: 25px;
+    font-size: 21px;
   }
 
   .secondary-main-image h2 {
@@ -203,8 +205,11 @@
     font-size: 11px;
     width: 84%;
     margin-left: 8%;
-    top: 10em;
     line-height: 15px
+  }
+  
+  .secondary-caption {
+    top: 4em;
   }
 
   .secondary-image {
@@ -235,6 +240,7 @@
   /*blogs*/
 
   .blog-entry-box {
+    margin: 3em auto;
     width: 90%;
   }
 
@@ -245,6 +251,11 @@
   .blog-entry-box p {
     font-size: 14px;
   }
+  
+  .blog-image {
+  width: 80%;
+}
+
 
   /*contact*/
 

@@ -23,6 +23,7 @@
 /*added*/
 
 .secondary-main-image {
+  display: inline-block;
   width: 100%;
   height: 365px;
   margin-top: 65px;
@@ -55,13 +56,16 @@
 
 .secondary-main-image h1 {
   letter-spacing: 3px;
-  position: absolute;
-  top: 130px;
+  position: relative;
+  top: 70px;
   width: 100%;
+    max-width: 650px;
   color: #fff;
   font-size: 33px;
   max-width: 1000px;
   font-weight: 300;
+    margin-left: auto;
+  margin-right: auto;
 }
 
 .secondary-main-image h2 {
@@ -71,20 +75,29 @@
   font-weight: 300;
 }
 
+.secondary-main-image h2 a {
+color: #2B88F0;
+  text-decoration: none;
+  font-weight: 400;
+}
+
 .secondary-caption {
-  position: absolute;
-  top: 220px;
+  position: relative;
+  top: 90px;
   color: #fff;
-  line-height: 28px;
-  max-width: 1000px;
+  line-height: 25px;
+  max-width: 650px;
+    margin-left: auto;
+  margin-right: auto;
 }
 
 .social-media-bar {
   width: 100%;
+    display: inline-block;
 }
 
 .fb-container {
-  width: 93px;
+  width: 53px;
   display:inline-block;
 }
 
