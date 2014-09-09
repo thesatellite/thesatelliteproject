@@ -68,7 +68,7 @@
   .main-image h1 {
     letter-spacing: 3px;
     position: relative;
-    top: 3.3em;
+    top: 3em;
     width: 100%;
     color: #fff;
     font-size: 23px;
@@ -157,7 +157,7 @@
   }
 
   .img-container img {
-    width: 30%;
+    width: 70%;
     height: auto;
     margin: 0 1px;
   }

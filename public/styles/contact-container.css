@@ -8,6 +8,10 @@
   padding: 15px 0;
 }
 
+.contact-input {
+  margin: 2em 0;
+}
+
 .contact-box {
   background-color: #fafafa;
   vertical-align: top;

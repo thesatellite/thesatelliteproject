@@ -6,7 +6,7 @@
 .news-item {
   width: 300px;
   display: inline-block;
-  margin-right: 46px;
+  margin-right: 0px;
 }
 
 .news-item.right {
@@ -17,10 +17,11 @@
 
 .news-item h2 {
   margin-bottom: 25px;
-  font-size: 15px;
+  font-size: 17px;
+  color: #666;
   letter-spacing: 1px;
 }
 
 .news-item img {
-  width: 300px;
+  width: 200px;
 }
