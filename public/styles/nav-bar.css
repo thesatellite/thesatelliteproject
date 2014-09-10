@@ -35,14 +35,14 @@
 }
 
 .main-logo {
+width: 233px;
   display: inline-block;
   float: left;
   margin: 23px 0 0 37px;
 }
 
 .main-logo img {
-  width: 233px;
-  height: 19px;
+  width: 100%;
 }
 
 .nav-menu {
