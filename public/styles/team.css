@@ -28,3 +28,8 @@
 .team-hr {
   margin-top: 80px;
 }
+
+.team-container {
+max-width: 1000px;
+margin: 0 auto;
+}
