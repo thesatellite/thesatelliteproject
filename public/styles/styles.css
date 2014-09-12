@@ -103,4 +103,11 @@ margin-bottom: 0;
 font-size: 13px;
   height: 30px;
  }
+ 
+ .assets {
+ height: 150px;
+ }
 
+.asset-container {
+display: inline-block;
+}

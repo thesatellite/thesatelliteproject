@@ -26,3 +26,7 @@ end
 get '/technology' do
   erb :technology
 end
+
+get '/press' do
+  erb :press
+end
