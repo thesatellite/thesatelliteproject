@@ -1,8 +1,8 @@
 .nav-container {
   z-index: +1;
-  height: 65px;
+  height: 145px;
   width: 100%;
-  position: fixed;
+  /* position: fixed; */
   background: white;
   -webkit-box-shadow: 0px 1px 0px 0px rgba(50, 50, 50, 0.3);
   -moz-box-shadow: 0px 1px 0px 0px rgba(50, 50, 50, 0.3);
@@ -10,7 +10,7 @@
 }
 
 .nav-wrapper {
-  width: 1100px;
+  width: 400px;
   display: inline-block;
 }
 
@@ -19,7 +19,7 @@
   height: 65px;
   width: 100%;
   max-width: 1100px;
-  position: fixed;
+  /* position: fixed; */
   background: white;
   top: 0;
 }
@@ -37,8 +37,8 @@
 .main-logo {
 width: 233px;
   display: inline-block;
-  float: left;
-  margin: 23px 0 0 37px;
+  /* float: left;  */
+  margin: 50px 0 0 0;
 }
 
 .main-logo img {
@@ -46,11 +46,12 @@ width: 233px;
 }
 
 .nav-menu {
-  display: inline-block;
+  /* display: inline-block; */
   top: 2em;
-  right: 4em;
-  float: right;
-  margin: 20px 50px 0 0;
+  /* right: 4em; */
+  /* float: right; */
+  margin: 20px 0 0 0;
+  
 }
 
 .nav-menu ul {
@@ -61,8 +62,11 @@ width: 233px;
 
 .nav-menu ul li {
   display: inline;
-  margin-left: 15px;
-  font-size: 14px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .hamburger {

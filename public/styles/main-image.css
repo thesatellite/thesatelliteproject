@@ -4,7 +4,7 @@
   background-size: cover;
   width: 100%;
   height: 500px;
-  margin-top: 65px;
+  margin-top: 0px;
 }
 
 .main-image h1 {
@@ -26,7 +26,7 @@
   display: inline-block;
   width: 100%;
   height: 365px;
-  margin-top: 115px;
+  margin-top: 0px;
 }
 
 #story-img {
@@ -57,7 +57,7 @@
 .secondary-main-image h1 {
   letter-spacing: 3px;
   position: relative;
-  top: 70px;
+  top: 120px;
   width: 100%;
     max-width: 650px;
   color: #fff;

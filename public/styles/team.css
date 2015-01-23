@@ -33,3 +33,30 @@
 max-width: 1000px;
 margin: 0 auto;
 }
+
+
+.team-header {
+  padding: 50px 0px 0px 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.team-header h1 {
+  font-size: 33px;
+  color: #333;
+  margin: 0 0 10px 0;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.team-header h3 {
+  font-size: 15px;
+  color: #666;
+  font-weight: 300;
+  width: 500px;
+  margin: auto;
+}
+
+.team-wika-image {
+padding: 50px 0px 0px 0px;
+}
