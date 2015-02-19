@@ -1,13 +1,15 @@
 .nav-footer-container {
   background-color: #f5f5f5;
   width: 100%;
+  margin: 130px 0 0 0;
 }
 
 .nav-footer {
   max-width: 1100px;
     text-align: left;
     display: inline-block;
-      padding: 50px 0px;
+      padding: 25px 0px 55px 0px;
+      font-size: 13px;
 }
 
 .nav-footer-left {

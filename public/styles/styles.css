@@ -30,6 +30,10 @@ h1 {
 
 h2 {
   font-size: 17px
+  letter-spacing: 10px;
+  font-weight: 300;
+  color: #333;
+  
 }
 
 h3 {
